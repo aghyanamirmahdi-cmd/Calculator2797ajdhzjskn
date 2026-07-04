@@ -57,8 +57,8 @@ from telebot import types
 # Configuration
 # ---------------------------
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
-BOT_USERNAME = os.getenv("BOT_USERNAME", "").lstrip("@")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8989786148:AAGj8efF6XUet0Vb3UZBFcocNbTfApBdwI0")
+BOT_USERNAME = os.getenv("BOT_USERNAME", "SWMC_CalculatorBot").lstrip("@")
 DATABASE_PATH = Path(os.getenv("DATABASE_PATH", "bot.db"))
 BACKUP_DIR = Path(os.getenv("BACKUP_DIR", "backups"))
 FLASK_HOST = os.getenv("FLASK_HOST", "0.0.0.0")
@@ -67,11 +67,11 @@ AUTO_BACKUP_SECONDS = int(os.getenv("AUTO_BACKUP_SECONDS", str(3 * 60 * 60 + 30 
 DEFAULT_FORCED_JOIN = os.getenv("FORCED_JOIN_CHANNEL", "")
 ADMIN_IDS = {
     int(x.strip())
-    for x in os.getenv("ADMIN_IDS", "").split(",")
+    for x in os.getenv("ADMIN_IDS", "7726600296").split(",")
     if x.strip().isdigit()
 }
 
-if BOT_TOKEN == "YOUR_BOT_TOKEN_HERE":
+if BOT_TOKEN == "8989786148:AAGj8efF6XUet0Vb3UZBFcocNbTfApBdwI0":
     # The bot can still start, but it will not be functional until a token is provided.
     pass
 
