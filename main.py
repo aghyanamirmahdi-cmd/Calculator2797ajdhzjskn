@@ -71,7 +71,7 @@ ADMIN_IDS = {
     if x.strip().isdigit()
 }
 
-if BOT_TOKEN == "8989786148:AAGj8efF6XUet0Vb3UZBFcocNbTfApBdwI0":
+if BOT_TOKEN == "YOUR_BOT_TOKEN_HERE":
     # The bot can still start, but it will not be functional until a token is provided.
     pass
 
