@@ -64,7 +64,7 @@ from telebot import types
 # Configuration
 # ---------------------------
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8989786148:AAGj8efF6XUet0Vb3UZBFcocNbTfApBdwI0")
+BOT_TOKEN = os.getenv("BOT_TOKEN", )
 BOT_USERNAME = os.getenv("BOT_USERNAME", "SWMC_CalculatorBot").lstrip("@")
 DATABASE_PATH = Path(os.getenv("DATABASE_PATH", "bot.db"))
 BACKUP_DIR = Path(os.getenv("BACKUP_DIR", "backups"))
